@@ -40,19 +40,16 @@ h1{
 
 .wrap{
     max-width: 960px;
-    display: flex;
-    justify-content: space-between;
     margin: 0 auto;
 }
 
 ul{
     display: flex;
-    align-items: center;
+    justify-content: space-between;
 }
 
 .box{
     width: 31.25%;
-    margin: 1.04%;
     background: #fff;
 }
 
@@ -72,16 +69,16 @@ ul{
 @media screen and (max-width:400px) {
     ul{
         display: block;
+        margin: 0 10px;
     }
 
     .box{
-        width: 330px;
         background: #fff;
+        width: auto;
+        margin-bottom:  20px;
     }
 
-    .wrap{
-        justify-content: center;
+    .box img{
+        width: 100%;
     }
-
-
 }
